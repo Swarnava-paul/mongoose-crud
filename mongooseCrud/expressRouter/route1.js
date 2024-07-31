@@ -94,12 +94,26 @@ router.patch('/products',async(req,res)=>{
  try{
   const {_id} = req.body
   const payload = req.body;
-  const updatedProduct = await ProductModel.findOneAndUpdate({_id:_id},{...payload})
-  res.end('success')
+  const updatedProduct = await ProductModel.findOneAndUpdate({_id},{...payload},{new:true})
+  res.json(updatedProduct)
  }catch(error) {
    console.log(error);
    res.json(error)
  }
+
+})
+
+router.delete('/products',async(req,res)=>{
+  try{
+    const {_id} = req.body;
+    console.log(_id);
+    const payload = req.body;
+    const deletedProduct = await ProductModel.findOneAndDelete({_id:_id},{...payload});
+
+    res.json('deleted')
+  }catch(error) {
+    res.end('Product Not deleted')
+  }
 
 })
 
