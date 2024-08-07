@@ -7,11 +7,13 @@ const jwt = require('jsonwebtoken')
 const checkAuthentication = require('../middlewares/middleware.Authentication')
 const hashPassword = require('../modules/bcryptFunction');
 const CompareBcrypt = require('../modules/bcryptCompare');
-const jwtSign = require('../modules/jwtSign')
+const jwtAccessToken = require("../modules/module.jwtAccessToken");
+const jwtRefreshToken = require('../modules/module.jwtRefreshToken')
 
 //mongoose models 
 const UserModel = require("../models/model.user");
 const TodoModel = require('../models/model.todo');
+const BlackListedTokenModel = require('../models/model.refreshToken')
 
 // middlewares
 router.use(express.json()); // to receive incoming request body
@@ -59,8 +61,9 @@ router.post('/login',async(req,res)=>{
 
     if(compareResult) {
      
-      const token = jwtSign({id:user._id,email:user.email,name:user.name});
-      res.status(200).json({massage:"Login Successfull",token:token})
+      const AccessToken = jwtAccessToken({id:user._id});
+      const RefreshToken = jwtRefreshToken({id:user._id});
+      res.status(200).json({massage:"Login Successfull",AccessToken,RefreshToken})
 
     }else {
        res.status(400).json({massage:'Wrong Password'})
@@ -90,10 +93,10 @@ router.get('/getAllTodo',checkAuthentication,async(req,res)=>{
 
 router.post('/createTodo',checkAuthentication,async(req,res)=>{
  const {id} = req.user;
- 
+ const AccessToken = req.accessToken;
   try{
      await TodoModel.create({...req.body,ownerId:id});
-     res.status(201).json({message:"Todo Created Successfully"})
+     res.status(201).json({message:"Todo Created Successfully",NewAccessToken:AccessToken})
   }catch(e) {
      res.status(400).json({message:"Some Thing Went Wrong"})
   }
@@ -126,6 +129,30 @@ res.status(400).json({message:"Failed to Delete the todo"})
 
 })
 
+router.post('/logout',async(req,res)=>{
+ 
+  try{
+    const refreshToken = req.headers['authorization'].split(" ")[1];
+
+    const tokens = await BlackListedTokenModel.find({});
+    if(!tokens || tokens.length == 0) {
+
+    const tokenArray = [refreshToken];
+    await BlackListedTokenModel.create({blackListedTokens:tokenArray});
+    res.status(200).json({message:"Logout Successful"})
+
+    }else {
+
+      await BlackListedTokenModel.updateOne({},{$push:{blackListedTokens:refreshToken}});
+      res.status(200).json({message:"Logout successful"})
+      
+    }
+ 
+  }catch(error) {
+    res.status(400).json({message:"No refresh token found"})
+  }
+
+})
 
 module.exports = {
     router
