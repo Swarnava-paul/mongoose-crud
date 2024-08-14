@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#body{
+
+}
+.pagenotfoundDiv{
+    margin: 35% 5% 5% 5%;
+}
+.pagenotfoundDiv button {
+    background-color: yellow;
+    border-radius: 4px;
+}
+@media only screen and (max-width:350px) {
+    .pagenotfoundDiv{
+        margin: 65% 5% 5% 5%;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:700px) {
+    .pagenotfoundDiv{
+        margin: 65% 5% 5% 5%;
+    }
+}
