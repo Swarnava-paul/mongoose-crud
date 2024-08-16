@@ -1,0 +1,41 @@
+
+ 
+ 
+ request url was /healthCheck method was GET 
+ request Time was Fri Aug 16 2024 23:49:19 GMT+0530 (India Standard Time) Total time taken for response 7 ms 
+ response Status 304
+ 
+ 
+ request url was /healthCheck method was GET 
+ request Time was Fri Aug 16 2024 23:49:20 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 304
+ 
+ 
+ request url was /healthCheck method was GET 
+ request Time was Fri Aug 16 2024 23:49:20 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 304
+ 
+ 
+ request url was /healthCheck method was GET 
+ request Time was Fri Aug 16 2024 23:50:07 GMT+0530 (India Standard Time) Total time taken for response 7 ms 
+ response Status 200
+ 
+ 
+ request url was /member.memberHc method was GET 
+ request Time was Sat Aug 17 2024 00:00:25 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /member/memberHc method was GET 
+ request Time was Sat Aug 17 2024 00:00:36 GMT+0530 (India Standard Time) Total time taken for response 5 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/managerHc method was GET 
+ request Time was Sat Aug 17 2024 00:00:48 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 00:00:57 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
