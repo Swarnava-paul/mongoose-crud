@@ -69,3 +69,453 @@
  request url was /admin/adminHc method was GET 
  request Time was Sat Aug 17 2024 00:11:39 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
  response Status 200
+ 
+ 
+ request url was /user/register method was GET 
+ request Time was Sat Aug 17 2024 12:00:02 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:00:08 GMT+0530 (India Standard Time) Total time taken for response 5 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:01:10 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:02:04 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:02:58 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:03:00 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:04:07 GMT+0530 (India Standard Time) Total time taken for response 4 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:04:46 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:04:55 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:04:57 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:16:23 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:17:03 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:17:33 GMT+0530 (India Standard Time) Total time taken for response 4 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:17:38 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:18:23 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:19:24 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:19:47 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:20:12 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:20:19 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:21:50 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:38:25 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was GET 
+ request Time was Sat Aug 17 2024 12:40:11 GMT+0530 (India Standard Time) Total time taken for response 5 ms 
+ response Status 404
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:40:16 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Sat Aug 17 2024 12:40:41 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:41:25 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:41:37 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:43:31 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:48:21 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:48:28 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:49:10 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:49:25 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:49:32 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:49:37 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:49:41 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:50:22 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:50:26 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:50:30 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:50:37 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 12:50:42 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:16:38 GMT+0530 (India Standard Time) Total time taken for response 9 ms 
+ response Status 404
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 14:16:57 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:17:19 GMT+0530 (India Standard Time) Total time taken for response 12 ms 
+ response Status 404
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:18:31 GMT+0530 (India Standard Time) Total time taken for response 19 ms 
+ response Status 404
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:19:26 GMT+0530 (India Standard Time) Total time taken for response 17 ms 
+ response Status 404
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:24:01 GMT+0530 (India Standard Time) Total time taken for response 19 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:25:55 GMT+0530 (India Standard Time) Total time taken for response 6 ms 
+ response Status 400
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:26:15 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 404
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 14:26:31 GMT+0530 (India Standard Time) Total time taken for response 12 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 22:13:05 GMT+0530 (India Standard Time) Total time taken for response 6 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 22:13:31 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 22:13:50 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Sat Aug 17 2024 22:15:02 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/adminHc method was GET 
+ request Time was Sat Aug 17 2024 22:15:12 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/addManager method was GET 
+ request Time was Sat Aug 17 2024 22:27:16 GMT+0530 (India Standard Time) Total time taken for response 8 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/addManager method was PATCH 
+ request Time was Sat Aug 17 2024 22:27:22 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/getAllManagers method was GET 
+ request Time was Sat Aug 17 2024 22:35:41 GMT+0530 (India Standard Time) Total time taken for response 8 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/getAllManagers method was GET 
+ request Time was Sat Aug 17 2024 22:36:13 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 400
+ 
+ 
+ request url was /admin/getAllManagers method was GET 
+ request Time was Sat Aug 17 2024 22:36:25 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was GET 
+ request Time was Mon Aug 19 2024 22:24:20 GMT+0530 (India Standard Time) Total time taken for response 6 ms 
+ response Status 404
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Mon Aug 19 2024 22:24:25 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Mon Aug 19 2024 22:24:34 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Mon Aug 19 2024 22:24:45 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Mon Aug 19 2024 22:24:51 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was GET 
+ request Time was Mon Aug 19 2024 22:25:50 GMT+0530 (India Standard Time) Total time taken for response 5 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Mon Aug 19 2024 22:25:58 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Mon Aug 19 2024 22:28:51 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Mon Aug 19 2024 22:29:01 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Mon Aug 19 2024 22:30:02 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Mon Aug 19 2024 22:32:20 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Tue Aug 20 2024 10:56:33 GMT+0530 (India Standard Time) Total time taken for response 4 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Tue Aug 20 2024 10:57:50 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/register method was POST 
+ request Time was Tue Aug 20 2024 10:58:19 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Tue Aug 20 2024 11:01:45 GMT+0530 (India Standard Time) Total time taken for response 1 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Tue Aug 20 2024 11:01:53 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Tue Aug 20 2024 11:01:58 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/addmanager method was GET 
+ request Time was Tue Aug 20 2024 11:03:11 GMT+0530 (India Standard Time) Total time taken for response 4 ms 
+ response Status 200
+ 
+ 
+ request url was /admin/addmanager method was PATCH 
+ request Time was Tue Aug 20 2024 11:03:17 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Tue Aug 20 2024 11:04:45 GMT+0530 (India Standard Time) Total time taken for response 0 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addmember method was PATCH 
+ request Time was Tue Aug 20 2024 11:05:46 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:06:11 GMT+0530 (India Standard Time) Total time taken for response 2 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:08:10 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:09:17 GMT+0530 (India Standard Time) Total time taken for response 7 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:09:48 GMT+0530 (India Standard Time) Total time taken for response 7 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:10:57 GMT+0530 (India Standard Time) Total time taken for response 7 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:11:38 GMT+0530 (India Standard Time) Total time taken for response 6 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:13:36 GMT+0530 (India Standard Time) Total time taken for response 12 ms 
+ response Status 200
+ 
+ 
+ request url was /manager/addMember method was PATCH 
+ request Time was Tue Aug 20 2024 11:14:37 GMT+0530 (India Standard Time) Total time taken for response 7 ms 
+ response Status 200
+ 
+ 
+ request url was /member/login method was POST 
+ request Time was Tue Aug 20 2024 11:31:42 GMT+0530 (India Standard Time) Total time taken for response 6 ms 
+ response Status 404
+ 
+ 
+ request url was /user/login method was POST 
+ request Time was Tue Aug 20 2024 11:32:39 GMT+0530 (India Standard Time) Total time taken for response 3 ms 
+ response Status 200
+ 
+ 
+ request url was /member/addTask method was POST 
+ request Time was Tue Aug 20 2024 11:33:57 GMT+0530 (India Standard Time) Total time taken for response 5 ms 
+ response Status 200
