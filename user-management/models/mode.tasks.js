@@ -5,7 +5,7 @@ const tasksSchema = new mongoose.Schema({
     status:{type:String,required:true},
     owner_Member_id :{type:String,required:true},
     managerId:{type:String,required:true},
-    taskCreatedAt:{type:Date,default:()=>new Date()}
+    taskCreatedAt:{type:String,default:()=>`${new Date().getFullYear()}-${new Date().getMonth()}-${new Date().getDate()}`}
 },{versionKey:false});
 
 const TaskModel = mongoose.model('Task',tasksSchema);

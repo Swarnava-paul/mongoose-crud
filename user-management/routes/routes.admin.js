@@ -1,7 +1,7 @@
 const express = require('express');
 const adminRouter = express.Router();
 const UserModel = require('../models/model.user');
-
+const TaskModel = require('../models/mode.tasks')
 
 adminRouter.get('/adminHc',(req,res)=>{
     res.status(200).send("Admin Route")
@@ -32,6 +32,23 @@ adminRouter.get('/getAllManagers',async(req,res)=>{
     }catch(error) {
       res.status(500).json({message:"Internal Server Error"});
     }
+})
+
+adminRouter.get('/getReports',async(req,res)=>{
+
+  try {
+    const date = new Date().getDate();
+    const year = new Date().getFullYear();
+    const month = new Date().getMonth()
+    const fullDate = `${year}-${month}-${date}`.toString()
+  
+    const dailyTasksCreated = await TaskModel.aggregate([{$match:{taskCreatedAt:{$eq:fullDate}}},{$count:'totalTasks'},{$project:{totalTasks:1}}])
+    const groupByStatus = await TaskModel.aggregate([{$group:{_id:'$status',count:{$count:{}}}}])
+    res.status(200).json({message:"Report Generated Successful",data:{dailyTasksCreated,groupByStatus}})
+  }catch(error) {
+    res.status(500).json({message:"Internal Server Error"})
+  }
+
 })
 
 module.exports = adminRouter
